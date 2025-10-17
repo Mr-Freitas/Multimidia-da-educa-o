@@ -7,11 +7,12 @@
 * {
   box-sizing: border-box;
   font-family: Inter, system-ui, Arial, sans-serif;
+  color: rgb(0, 0, 0);
 }
 
 body {
   margin: 0;
-  background: #f6f7fb;
+  background: #37795e;
   color: #222;
 }
 
@@ -24,10 +25,10 @@ body {
 
 .left {
   width: var(--sidebar);
-  background: #fff;
+  background: #e0e0ca;
   border-radius: 10px;
   padding: 12px;
-  box-shadow: 0 6px 18px rgba(18, 33, 68, 0.06);
+  box-shadow: 0 6px 18px rgba(55, 33, 62, 0.06);
   display: flex;
   flex-direction: column;
 }
@@ -40,11 +41,10 @@ body {
 }
 
 .logo .badge {
-  width: 40px;
-  height: 40px;
-  background: linear-gradient(135deg, var(--accent), #4c9bd6);
-  border-radius: 8px;
+  width: 80px;
+  height: 80px;
 }
+
 
 h3 {
   margin: 8px 0 12px 0;
@@ -74,7 +74,7 @@ h3 {
 
 .middle {
   width: 220px;
-  background: #fff;
+  background: #e0e0ca;
   border-radius: 10px;
   padding: 12px;
   box-shadow: 0 6px 18px rgba(18, 33, 68, 0.06);
@@ -100,7 +100,7 @@ h3 {
 
 .main {
   flex: 1;
-  background: #fff;
+  background: #e0e0ca;
   border-radius: 10px;
   padding: 16px;
   box-shadow: 0 6px 18px rgba(18, 33, 68, 0.06);

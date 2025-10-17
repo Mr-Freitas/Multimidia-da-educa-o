@@ -1,31 +1,18 @@
 const data = [
   {
     id: 'mat01',
-    title: 'Programação Básica',
+    title: 'Heurísticas de Nielsen',
     lessons: [
       {id:'m1a1', title:'Aula 1 - Introdução', steps:[
-        {type:'video', value:'M7lc1UVf-VE'},
+        {type:'video', value:'c1DCt5zLVyM'},
         {type:'text', value:'Este é o texto da continuação da aula. Aqui você explica conceitos importantes.'},
         {type:'image', value:'https://via.placeholder.com/800x450?text=Imagem+da+Aula+1'},
         {type:'audio', value:'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3'}
       ]},
-      {id:'m1a2', title:'Aula 2 - Variáveis', steps:[
-        {type:'video', value:'M7lc1UVf-VE'},
-        {type:'text', value:'Nesta aula veremos variáveis, tipos e atribuições.'}
-      ]}
+      
     ]
   },
-  {
-    id: 'mat02',
-    title: 'Filosofia da Tecnologia',
-    lessons: [
-      {id:'m2a1', title:'Aula 1 - Identidade e Máquina', steps:[
-        {type:'video', value:'M7lc1UVf-VE'},
-        {type:'text', value:'Reflexão sobre identidade em ambientes digitais.'},
-        {type:'image', value:'https://via.placeholder.com/800x450?text=Filosofia+e+Tecnologia'}
-      ]}
-    ]
-  }
+  
 ];
 
 const contentList = document.getElementById('contentList');
