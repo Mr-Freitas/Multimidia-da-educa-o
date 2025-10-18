@@ -7,15 +7,15 @@ const data = [
         id: 'm1a1',
         title: 'Aula 1 - Introdução',
         steps: [
-          { type: 'video', value: 'c1DCt5zLVyM' },
-          { type: 'text', value: 'Este é o texto da continuação da aula. Aqui você explica conceitos importantes.' },
-          { type: 'image', value: 'https://via.placeholder.com/800x450?text=Imagem+da+Aula+1' },
-          { type: 'audio', value: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3' }
+          { type: 'video', value: 'dtcKFTg3vdc' },
+          { type: 'text', value: '"As 10 Heurísticas de Usabilidade de Nielsen representam um conjunto de princípios fundamentais e universais no design de interfaces, cuja importância reside em estabelecer um padrão de qualidade para a interação humano-computador, garantindo que sistemas digitais sejam intuitivos, eficientes e satisfatórios. Essencialmente, elas servem como um guia prático para a avaliação e melhoria da Experiência do Usuário (UX), permitindo que especialistas identifiquem rapidamente falhas de usabilidade (como a falta de "Visibilidade do Status do Sistema" ou a ausência de "Controle e Liberdade para o Usuário") de forma custo-efetiva e precoce no ciclo de desenvolvimento. Ao aplicar conceitos como a "Correspondência entre o Sistema e o Mundo Real", a "Prevenção de Erros" e a manutenção da "Consistência e Padronização", as heurísticas minimizam a carga cognitiva do usuário, reduzem a taxa de erros e frustrações, aumentam a produtividade e, consequentemente, melhoram a satisfação do cliente, a credibilidade do produto e as taxas de conversão, fazendo delas a espinha dorsal para qualquer design digital bem-sucedido."' },
+          { type: 'image', value: 'image/1_qel9XXYWGOh-bcewpFsu8w.png' },
+          { type: 'audio', value: 'image/audio-multimidia.m4a' }
         ]
       },
       {
         id: 'm1a2',
-        title: 'Aula 2 - Heurísticas Animadas',
+        title: '1.1 - Descrição das Heurísticas',
         steps: [
           { type: 'heuristic', value: { title: '1. Visibilidade do status do sistema', description: 'O sistema deve sempre manter os usuários informados sobre o que está acontecendo, através de feedback apropriado e em tempo hábil.' } },
           { type: 'heuristic', value: { title: '2. Correspondência entre o sistema e o mundo real', description: 'O sistema deve falar a língua do usuário, com palavras, frases e conceitos familiares.' } },
