@@ -19,7 +19,15 @@ const data = [
         steps: [
           { type: 'heuristic', value: { title: '1. Visibilidade do status do sistema', description: 'O sistema deve sempre manter os usuários informados sobre o que está acontecendo, através de feedback apropriado e em tempo hábil.' } },
           { type: 'heuristic', value: { title: '2. Correspondência entre o sistema e o mundo real', description: 'O sistema deve falar a língua do usuário, com palavras, frases e conceitos familiares.' } },
-          { type: 'heuristic', value: { title: '3. Controle e liberdade do usuário', description: 'Os usuários muitas vezes escolhem funções do sistema por engano e precisam de uma “saída de emergência” claramente marcada.' } }
+          { type: 'heuristic', value: { title: '3. Controle e liberdade do usuário', description: 'Os usuários muitas vezes escolhem funções do sistema por engano e precisam de uma “saída de emergência” claramente marcada.' } },
+          { type: 'heuristic', value: { title: '4. Consistência e padronização', description: 'O usuário não deve ter que se perguntar se palavras, situações ou ações diferentes significam a mesma coisa. O sistema deve seguir padrões de design internos e externos' } },
+          { type: 'heuristic', value: { title: '5. Prevenção de Erros', description: 'É melhor prevenir que um erro ocorra do que apresentar uma boa mensagem de erro. Elimine condições propensas a erros ou forneça opções de confirmação antes de uma ação irreversível.' } },
+          { type: 'heuristic', value: { title: '6. Reconhecimento em vez de Recordação', description: 'Minimize a carga de memória do usuário tornando objetos, ações e opções visíveis. O usuário não deve ter que lembrar de informações de uma parte para outra da interface.' } },
+          { type: 'heuristic', value: { title: '7. Flexibilidade e Eficiência de Uso', description: 'Ofereça aceleradores (atalhos de teclado, comandos customizáveis) para usuários experientes, permitindo que o sistema atenda tanto a novatos quanto a especialistas.' } },
+          { type: 'heuristic', value: { title: '8. Estética e Design Minimalista', description: 'As interfaces não devem conter informações irrelevantes ou raramente necessárias. Todo conteúdo extra compete com as informações realmente importantes e diminui a visabilidade.' } },
+          { type: 'heuristic', value: { title: '9. Ajude os Usuários a Reconhecerem, Diagnosticarem e Recuperarem-se de Erros', description: 'As mensagens de erro devem ser expressas em linguagem simples (sem códigos), indicar o problema com precisão e sugerir construtivamente uma solução.' } },
+          { type: 'heuristic', value: { title: '10. Ajuda e Documentação', description: 'Embora seja melhor que o sistema possa ser usado sem documentação, pode ser necessário fornecer ajuda e documentação. Esta deve ser fácil de pesquisar, focada na tarefa e concisa' } }
+          
         ]
       }
     ]
